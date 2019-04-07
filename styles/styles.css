@@ -1,0 +1,76 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(138, 16, 8);
+}
+
+
+nav {
+    display: flex; 
+    background-color: rgb(231, 214, 182);
+    width: 100%;
+    justify-content: center;
+    padding: .2em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav a {
+      margin: 2em 1em 0px 1em;
+      color: rgb(138, 16, 8);
+  }
+
+  nav a:hover {
+      color: white;
+  }
+
+  .img-hero {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+  }
+
+  .flex-container {
+      display: flex;
+      width: 100%;
+      background-color: rgb(226, 203, 172);
+      }
+
+  main {
+      flex: 2;
+      margin: 1em;
+  }
+
+  aside {
+      flex: 1em;
+  }
+
+  footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+  }
+
+  footer a {
+      color: rgb(185, 164, 110);
+  }
+
+  h1, h2, h3 {
+      color: rgb(126, 18, 11);
+  }
+
+  h1 {
+      text-transform: uppercase;
+      text-align: center;
+      color: rgb(12, 11, 12);
+  }
+
+  .wrapper {
+      background-color: rgb(226, 203, 172);;
+  }
