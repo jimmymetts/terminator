@@ -7,12 +7,7 @@
 
 
 html {
-    
-        width: 500px;
-        border: 20px solid rgb(38, 0, 128);
-        padding: 50px;
-        margin: 50px;
-      
+    box-sizing: border-box;
 }
 
 body {
